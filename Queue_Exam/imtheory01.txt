@@ -1,0 +1,13 @@
+
+Queue:A queue is a linear data structure that follows the First in, First out principle(FIFO).
+The benefit of implementing a queue using a linked list over arrays is that it allows to grow the queue as per the requirements, i.e., memory can be allocated dynamically.
+
+Example:
+A good example of a queue is a queue of customers purchasing a train ticket, where the customer who comes first will be served first.
+
+
+Implementation of Queue using Linked List:
+
+A linked queue consists of two pointers, i.e., the front pointer and the rear pointer. The front pointer stores the address of the first element of the queue, and the rear pointer stores the address of the last element of the queue.
+
+Insertion is performed at the rear end, whereas deletion is performed at the front end of the queue. If front and rear both points to NULL, it signifies that the queue is empty.

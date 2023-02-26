@@ -1,0 +1,17 @@
+Algorithm to perform Insertion on a linked queue:
+
+
+
+ 1.Create a new node pointer.
+    ptr = (struct node *) malloc (sizeof(struct node));
+
+2.Now, two conditions arise, i.e., either the queue is empty, or the queue contains at least one element.
+
+3. If the queue is empty, then the new node added will be both front and rear, and the next pointer of front and rear will point to NULL.
+
+4.If the queue contains at least one element, then the condition front == NULL becomes false. So, make the next pointer of rear point to new node ptr and point the rear pointer to the newly created node ptr
+
+Hence, a new node(element) is added to the queue.
+
+
+

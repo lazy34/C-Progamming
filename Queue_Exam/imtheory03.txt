@@ -1,0 +1,9 @@
+Algorithm to perform Deletion on a linked queue:
+
+
+
+1.Check if the queue is empty or not.
+
+2.If the queue is empty, i.e., front==NULL, so we just print 'underflow' on the screen and exit.
+
+3.If the queue is not empty, delete the element at which the front pointer is pointing. For deleting a node, copy the node which is pointed by the front pointer into the pointer ptr and make the front pointer point to the front's next node and free the node pointed by the node ptr. 
